@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Table In CSS </title>
+        <style>
+            body{font-family: Arial, Helvetica, sans-serif;}
+            table, td, th{
+                text-align: center;
+                padding: 12px;
+            }
+            table{width: 100%;}
+            th{background-color: #08150a;
+            color: white;}
+            tr:nth-child(even){
+                background-color: #1f5128;
+                color: white;
+            }
+            tr:nth-child(odd){
+                background-color: yellowgreen;
+            }
+             th{
+                border-radius: 50px;
+             }
+             td, td{
+                border-radius: 50px;
+             }
+             td:hover{background-color: aquamarine;
+                color: red;cursor: pointer;            
+             }
+             th:hover{
+                background-color: blue;
+                color: orange;
+                cursor: pointer;
+             }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>UNKNOWN 1</th>
+                <th>UNKNOWN 2</th>
+                <th>UNKNOWN 3</th>
+            </tr>
+            <tr>
+                <td>Front-end Developer</td>
+                <td>Manual tester</td>
+                <td>Medical coder</td>
+            </tr>
+            <tr>
+                <td>Front-end Developer</td>
+                <td>Manual tester</td>
+                <td>Medical coder</td>
+            </tr>
+            <tr>
+                <td>Front-end Developer</td>
+                <td>Manual tester</td>
+                <td>Medical coder</td>
+            </tr>
+            <tr>
+                <td>Front-end Developer</td>
+                <td>Manual tester</td>
+                <td>Medical coder</td>
+            </tr>
+        </table>
+    </body>
